@@ -9,7 +9,7 @@ In the last TG meeting I mentioned the branch of Spike with Keccak support, orig
 This exists in the "dev-keccak" branch of my own fork of Spike at:
 https://github.com/mjosaarinen/riscv-isa-sim/tree/dev-keccak
 
-I just synced it with master and tested it,
+I just synced it with spike's master and tested it.
 
 You can build it like a regular spike (please see spike README
 for dependencies):
@@ -23,7 +23,8 @@ cd build
 time make
 make install
 ```
-
+Let me know if you have problems.
+ 
 #   What the patch does?
 
 There is an additional spike flag `zvkk` that enables the Keccak instruction.
